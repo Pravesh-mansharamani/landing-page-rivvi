@@ -4,7 +4,7 @@ import Typed from 'react-typed'
 const Hero = () => {
 
   const openLink = () => {
-    window.location.href = 'http://localhost:3000/'
+    window.location.href = 'https://nextjs-chatbot-three.vercel.app/'
   }
   return (
     <div id='hero'>

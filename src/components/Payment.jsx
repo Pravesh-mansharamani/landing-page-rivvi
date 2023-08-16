@@ -6,7 +6,7 @@ import Triple from '../assets/triple.png'
 const Payment = () => {
 
     const handleStartTrial = () => {
-        window.location.href = 'http://localhost:3000/';
+        window.location.href = 'https://nextjs-chatbot-three.vercel.app/';
     };
 
     const handleSmallEnterprise = () => {

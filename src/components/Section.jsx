@@ -3,7 +3,7 @@ import demoVideo from '../assets/GailAI.mp4';
 
 const Section = () => {
     const openLink = () => {
-        window.location.href = 'http://localhost:3000/';
+        window.location.href = 'https://nextjs-chatbot-three.vercel.app/';
     };
 
     return (
