@@ -13,7 +13,7 @@ const Footer = () => {
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
         <a href='https://rivvi.com'><img src={Logo} alt='/' className='max-w-[250px] max-h-[250px]'/></a>
-        <p className=''>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+        <p className=''>Transforming businesses with autonomous payroll, flexible pay options, and seamless money management for happier employees and higher efficiency.</p>
         <div className='flex justify-between md:w-[75%] my-6'>
             <a href='/'><FaFacebookSquare size={30} /></a>
             <a href='/'><FaInstagram size={30} /></a>

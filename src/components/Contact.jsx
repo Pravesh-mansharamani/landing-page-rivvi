@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
           <p>
             We care about the protection of your data. Read our{' '}
-            <span className='text-[#5271ff]'>Privacy Policy.</span>
+            <a href='https://www.freeprivacypolicy.com/live/ea50a796-d140-461c-94c5-7032e278253d'><span className='text-[#5271ff]'>Privacy Policy.</span></a>
           </p>
         </div>
       </div>

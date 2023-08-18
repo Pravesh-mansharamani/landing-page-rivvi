@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white' id='navbar'>
-      <a href='/'><img src={Logo} alt='/' className='max-w-[250px]'/></a>
+      <a href='/'><img src={Logo} alt='/' className='max-w-[175px]'/></a>
       <ul className='hidden md:flex px-6'>
       <li className='p-4 hover:text-[#5271ff] hover:underline text-2xl font-bold'><Link to='section' spy={true} smooth={true} offset={-50} duration={500}>Features</Link></li>
       <li className='p-4 hover:text-[#5271ff] hover:underline text-2xl font-bold'><Link to='contact' spy={true} smooth={true} offset={-150} duration={500}>Contact</Link></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
     {nav ? <AiOutlineClose size={40}/> : <AiOutlineMenu size={40} />}
     </div>
     <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
-        <a href='/'><h1 className='w-full text-5xl font-bold text-[#242267] m-4'>Rivvi.</h1></a>
+        <a href='/'><img src={Logo} alt='/' className='max-w-[175px]'/></a>
         <li className='p-4 hover:text-[#5271ff] hover:underline text-2xl font-bold'><Link to='section' spy={true} smooth={true} offset={-50} duration={500} onClick={handleNav} >Features</Link></li>
         <li className='p-4 hover:text-[#5271ff] hover:underline text-2xl font-bold'><Link to='contact' spy={true} smooth={true} offset={-150} duration={500} onClick={handleNav} >Contact</Link></li>
         <li className='p-4 hover:text-[#5271ff] hover:underline text-2xl font-bold'><Link to='payment' spy={true} smooth={true} duration={500} onClick={handleNav}>Pricing</Link></li>
